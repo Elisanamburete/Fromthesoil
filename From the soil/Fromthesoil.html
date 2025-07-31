@@ -1,0 +1,72 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From the Soil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body { background: #f8f5f0; color: #3e2f1c; line-height: 1.6; padding: 2rem; }
+    header { text-align: center; margin-bottom: 3rem; }
+    header img { max-width: 120px; margin-bottom: 1rem; }
+    header h1 { font-size: 2.5rem; color: #5a3e24; }
+    header p { font-size: 1.2rem; color: #7d5c3a; }
+    nav { text-align: center; margin-bottom: 2rem; }
+    nav a { margin: 0 1rem; text-decoration: none; color: #6a4e2a; font-weight: bold; }
+    .posts { display: grid; gap: 2rem; max-width: 800px; margin: auto; }
+    .post { border: 1px solid #e5d9c6; padding: 1.5rem; border-radius: 8px; background: #fffaf0; }
+    .post h2 { color: #4b351f; }
+    .post a { text-decoration: none; color: #6a4e2a; font-weight: bold; }
+    .bio { text-align: center; margin-top: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; font-style: italic; color: #5e4630; }
+    .contact { max-width: 600px; margin: 4rem auto; padding: 2rem; background: #f5efe2; border-radius: 8px; }
+    .contact h3 { margin-bottom: 1rem; }
+    .contact input, .contact textarea { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccb89f; border-radius: 4px; }
+    .contact button { padding: 0.7rem 1.5rem; background: #7c5b3e; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    footer { text-align: center; margin-top: 4rem; font-size: 0.9rem; color: #a88c6c; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="From the Soil Logo" />
+    <h1>From the Soil</h1>
+    <p>Stories and reflections rooted in identity, truth, and growth.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="author.html">Meet the Author</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="posts">
+    <div class="post">
+      <h2><a href="blog.html">A Letter to My Younger Self</a></h2>
+      <p>Reflections on growth, self-doubt, and reclaiming identity. <em>Read more...</em></p>
+    </div>
+    <div class="post">
+      <h2><a href="blog.html">What It Means to Be Black and Young in Kenya</a></h2>
+      <p>Exploring identity, community, and the power of voice. <em>Read more...</em></p>
+    </div>
+  </section>
+
+  <div class="bio">
+    <p>I'm a student, writer, and dreamer living in Kenya — using words to grow something real from the soil of my experience.</p>
+  </div>
+
+  <section class="contact" id="contact">
+    <h3>Contact Me</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 From the Soil. All rights reserved.</p>
+  </footer>
+</body>
+</html>
